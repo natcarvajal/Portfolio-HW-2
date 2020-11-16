@@ -9,7 +9,6 @@ html {
 
 span.navbar-brand {
   font-family: "Playfair Display", serif;
-  color: #9e7bb5;
 }
 
 img {
@@ -63,9 +62,22 @@ label {
   font-size: 13pt;
 }
 
+.col {
+  margin: auto;
+}
+
 .btn {
   font-family: "Playfair Display", serif;
   color: whitesmoke;
+}
+
+.fab {
+  color: #9e7bb5;
+  margin-left: 50%;
+}
+
+.fab:hover {
+  color: #918d94;
 }
 
 .footer {
