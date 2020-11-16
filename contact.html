@@ -15,7 +15,6 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      </body>
     </head>
 
 <body>
@@ -43,11 +42,20 @@
     <!-- End Nav -->
     <!-- Contact Sqaure -->
     <div class="container">
-        <div class="row">
-            
-
-
-
+        <div class="jumbotron">
+            <h1 class="page-header">Contact!</h1>
+            <form action="" style="width: 400px; margin:auto">
+                <hr class="my-4">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control">
+                <div class="form-group">
+                    <label for="comment">Message</label>
+                    <textarea class="form-control" rows="5" id="message"></textarea>
+                </div>
+            </form> 
+              <a class="btn btn-secondary btn-lg" href="mailto:nataliacarvajal1996@gmail.com" role="button">Submit</a>
         </div>
     </div>
     <!-- Footer -->
@@ -57,5 +65,4 @@
         </div>
     </footer>
 </body>
-
 </html>

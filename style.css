@@ -2,12 +2,11 @@ html {
   position: relative;
   min-height: 100%;
 }
-ul {
-  float: right;
-}
+
 .nav-item {
   font-family: "Playfair Display", serif;
 }
+
 span.navbar-brand {
   font-family: "Playfair Display", serif;
   color: #9e7bb5;
@@ -20,6 +19,13 @@ img {
 .intro {
   float: left;
 }
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
 .jumbotron {
   border-style: double;
   border-color: whitesmoke;
@@ -27,23 +33,39 @@ img {
   background-color: #9e7bb5;
 }
 
-.display-4 {
+.page-header {
   color: whitesmoke;
   font-family: "Playfair Display", serif;
   font-size: 36pt;
 }
+
 .my-4 {
   background-color: whitesmoke;
 }
+
 p {
   color: whitesmoke;
   font-size: 14pt;
   font-family: "Times New Roman", Times, serif;
 }
-.container {
-  width: auto;
-  max-width: 680px;
-  padding: 0 15px;
+
+header {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: #9e7bb5;
+  font-size: 36pt;
+  margin-bottom: 10px;
+}
+
+label {
+  font-family: "Playfair Display", serif;
+  color: whitesmoke;
+  font-size: 13pt;
+}
+
+.btn {
+  font-family: "Playfair Display", serif;
+  color: whitesmoke;
 }
 
 .footer {
